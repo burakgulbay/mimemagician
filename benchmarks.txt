@@ -1,6 +1,6 @@
 goos: linux
 goarch: amd64
-pkg: github.com/zRedShift/mimemagic
+pkg: github.com/burakgulbay/mimemagician
 BenchmarkMatchGlob/2001_compression_overview.djvu-8         	 1000000	      1337 ns/op
 BenchmarkMatchGlob/32x-rom.32x-8                            	 2000000	       776 ns/op
 BenchmarkMatchGlob/4jsno.669-8                              	 2000000	       677 ns/op
@@ -1332,4 +1332,4 @@ BenchmarkMatchTreeMagic/.-8                                            	    1000
 BenchmarkMatchTreeMagic//root-8                                        	 1000000	      1490 ns/op
 BenchmarkMatchTreeMagic//non/existent-8                                	 1000000	      1469 ns/op
 PASS
-ok  	github.com/zRedShift/mimemagic	2444.984s
+ok  	github.com/burakgulbay/mimemagician	2444.984s
